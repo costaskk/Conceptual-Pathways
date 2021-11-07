@@ -2,36 +2,49 @@
     {
         "id": 1,
         "title": "Screening for Type 2 Diabetes and Pre-diabetes in Asymptomatic People",
-        "x": 100,
-        "y": 100,
-        "connecting_nodes": [2]
+        "x": 0,
+        "y": 0,
+        "connecting_nodes": [2],
+        "colour": "#7a00cc"
     },
     {
         "id": 2,
         "title": "Patient diagnosed with Type 2 Diabetes",
-        "x": 100,
-        "y": 120,
-        "connecting_nodes": [3, 4, 5]
+        "x": 0,
+        "y": 12,
+        "connecting_nodes": [3, 4, 5],
+        "colour": "#7a00cc"
     },
     {
         "id": 3,
         "title": "Referral to Secondary/Specialist Care",
-        "x": 120,
-        "y": 120,
-        "connecting_nodes": []
+        "x": 6,
+        "y": 18,
+        "connecting_nodes": [],
+        "colour": "#7a00cc"
     },
     {
         "id": 4,
         "title": "History",
-        "x": 90,
-        "y": 130,
-        "connecting_nodes": []
+        "x": -6,
+        "y": 30,
+        "connecting_nodes": [6],
+        "colour": "#7a00cc"
     },
     {
         "id": 5,
         "title": "Examination",
-        "x": 110,
-        "y": 130,
-        "connecting_nodes": []
+        "x": 6,
+        "y": 30,
+        "connecting_nodes": [6],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 6,
+        "title": "Laboratory evaluation",
+        "x": 0,
+        "y": 42,
+        "connecting_nodes": [],
+        "colour": "#7a00cc"
     }
 ]
