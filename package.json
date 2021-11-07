@@ -1,0 +1,32 @@
+{
+  "name": "conceptual-pathways",
+  "version": "1.0.0",
+  "description": "Conceptual Pathways with medicinal purpose",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --open",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makli92/Conceptual-Pathways.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makli92/Conceptual-Pathways/issues"
+  },
+  "homepage": "https://github.com/Makli92/Conceptual-Pathways#readme",
+  "dependencies": {
+    "graphology": "^0.22.1",
+    "sigma": "^1.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}

@@ -11,13 +11,27 @@
         "title": "Patient diagnosed with Type 2 Diabetes",
         "x": 100,
         "y": 120,
-        "connecting_nodes": [3]
+        "connecting_nodes": [3, 4, 5]
     },
     {
         "id": 3,
         "title": "Referral to Secondary/Specialist Care",
         "x": 120,
         "y": 120,
+        "connecting_nodes": []
+    },
+    {
+        "id": 4,
+        "title": "History",
+        "x": 90,
+        "y": 130,
+        "connecting_nodes": []
+    },
+    {
+        "id": 5,
+        "title": "Examination",
+        "x": 110,
+        "y": 130,
         "connecting_nodes": []
     }
 ]
