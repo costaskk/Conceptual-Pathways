@@ -28,8 +28,8 @@ function initialiseSigma() {
             minArrowSize: 10,
             minNodeSize: 1,
             maxNodeSize: 20,
-            minEdgeSize: 30,
-            maxEdgeSize: 30,
+            minEdgeSize: 20,
+            maxEdgeSize: 20,
             enableEdgeHovering: true,
             // edgeHoverSizeRatio: 5
         }

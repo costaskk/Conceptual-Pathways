@@ -27,7 +27,7 @@ export function connectNodes(firstNodeId, secondNodeId, g) {
         id: 'e' + firstNodeId + secondNodeId,
         source: firstNodeId,
         target: secondNodeId,
-        size: 30,
+        size: 20,
         color: BLUE,
         type: 'line'
     });

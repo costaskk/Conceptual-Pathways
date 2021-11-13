@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Makli92/Conceptual-Pathways#readme",
   "dependencies": {
     "graphology": "^0.22.1",
-    "sigma": "latest"
+    "sigma": "^1.2.1"
   },
   "devDependencies": {
     "webpack": "^5.62.1",
