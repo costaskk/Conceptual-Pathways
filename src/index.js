@@ -37,8 +37,34 @@ function initialiseSigma() {
 
     // Bind the events:
     s.bind('clickNode', function(e) { 
-        document.getElementById('node-info').innerHTML = "<p>" + e.data.node.label + "</p>";
+        openNav();
+        if (openNav()) {
+            closeNav();
+        }
+        document.getElementById('node-info').innerHTML = "<a href='javascript:void(0)' class='closebtn' id='closebtn' onclick='closeNav()'>×</a><a>" + e.data.node.label + "</a>";
 
         // console.log(e.type, e.data.node.label, e.data.captor);
     });
+
+    //double clicking on nodes does not zoom in
+    s.bind('overNode', function(e) {
+        s.settings('doubleClickEnabled', false);
+      });
+      
+    //double clicking out of nodes does zoom in
+    s.bind('outNode', function(e) {
+        s.settings('doubleClickEnabled', true);
+    });
+
+    function openNav() {
+        document.getElementById("node-info").style.width = "250px";
+        document.getElementById("graph-container").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("node-info").style.display = "none";
+        document.getElementById("node-info").style.width = "0";
+        
+        document.getElementById("graph-container").style.marginLeft= "0";
+      }
 }
