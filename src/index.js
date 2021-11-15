@@ -38,9 +38,6 @@ function initialiseSigma() {
     // Bind the events:
     s.bind('clickNode', function(e) { 
         openNav();
-        if (openNav()) {
-            closeNav();
-        }
         document.getElementById('node-info').innerHTML = "<a href='javascript:void(0)' class='closebtn' id='closebtn' onclick='closeNav()'>×</a><a>" + e.data.node.label + "</a>";
 
         // console.log(e.type, e.data.node.label, e.data.captor);
