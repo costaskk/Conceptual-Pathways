@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Makli92/Conceptual-Pathways#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "graphology": "^0.22.1",
     "sigma": "^1.2.1"
   },

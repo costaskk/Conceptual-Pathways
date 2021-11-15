@@ -27,11 +27,18 @@ function initialiseSigma() {
         settings: {
             minArrowSize: 10,
             minNodeSize: 1,
-            maxNodeSize: 20,
-            minEdgeSize: 20,
+            maxNodeSize: 10,
+            minEdgeSize: 10,
             maxEdgeSize: 20,
             enableEdgeHovering: true,
             // edgeHoverSizeRatio: 5
         }
+    });
+
+    // Bind the events:
+    s.bind('clickNode', function(e) { 
+        document.getElementById('node-info').innerHTML = "<p>" + e.data.node.label + "</p>";
+
+        // console.log(e.type, e.data.node.label, e.data.captor);
     });
 }

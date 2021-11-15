@@ -8,7 +8,7 @@ export function setNodes(nodes, g) {
             label: node["title"],
             x: node["x"],
             y: node["y"],
-            size: 20,
+            size: 10,
             color: node["colour"]
         });
     }
@@ -27,7 +27,7 @@ export function connectNodes(firstNodeId, secondNodeId, g) {
         id: 'e' + firstNodeId + secondNodeId,
         source: firstNodeId,
         target: secondNodeId,
-        size: 20,
+        size: 15,
         color: BLUE,
         type: 'line'
     });
