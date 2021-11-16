@@ -2,8 +2,12 @@
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Conceptual Pathways</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             body {
+
+  /*background-image: url('images/bg.png');*/
+
   font-family: "Lato", sans-serif;
 }
 
@@ -36,7 +40,7 @@
 .sidebar .closebtn {
   position: absolute;
   top: 0%;
-  right: 90%;
+  right: 87.4%;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -65,10 +69,53 @@
   .sidebar a {font-size: 18px;}
 }
 
+
+.sidebar .search-container {
+  float: right;
+}
+
+.sidebar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.sidebar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar .search-container button:hover {
+  background: #ccc;
+}
+@media screen and (max-width: 600px) {
+  .sidebar .search-container {
+    float: none;
+  }
+  .sidebar a, .sidebar input[type=text], .sidebar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .sidebar input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
         </style>
         <script src="./bundle.js"></script>
     </head>
-    <body>
+    <body style="background-color:whitesmoke;">
         <div id="container">
             <style>
                 #graph-container {
@@ -83,7 +130,9 @@
             <!--  <div class="row"> -->
                     <div id="node-info" class="sidebar">
                         <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+                       
                     </div>
+                    
                     <div id="graph-container" class="col-md-auto"></div>
                   </div>
             <!-- </div> 
