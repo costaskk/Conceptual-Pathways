@@ -83,11 +83,12 @@ function initialiseSigma() {
 
     //if background or edge is clicked then close the navbar
     s.bind('click', function(e) {
-
+        //reset values of count and label of last clicked node and then close the navbar
+        count = 0;
+        label = 0;
         closeNav();
     }); 
-    count = 0;
-    
+
     //double clicking on nodes does not zoom in
     s.bind('overNode', function(e) {
         s.settings('doubleClickEnabled', false);
@@ -101,16 +102,17 @@ function initialiseSigma() {
     
 
     function openNav() {
-        //document.getElementById("node-info").style.display = "";
+
         document.getElementById("node-info").style.width = "250px";
         document.getElementById("graph-container").style.marginLeft = "250px";
       }
       
       function closeNav() {
-        //document.getElementById("node-info").style.display = "none";
-        //document.getElementById("closebtn").style.display = "none";
+        
         document.getElementById("node-info").style.width = "0";
         
         document.getElementById("graph-container").style.marginLeft= "0";
+
+        
       }
 }
