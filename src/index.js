@@ -27,16 +27,14 @@ function initialiseSigma() {
             type: 'canvas'
         },
         settings: {
+            //labels show up only when specified zoom in
             labelThreshold: 25, 
-            //drawLabels: true,
             minArrowSize: 10,
-
             minNodeSize: 1,
             maxNodeSize: 10,
             minEdgeSize: 10,
             maxEdgeSize: 15,
             enableEdgeHovering: true,
-            // edgeHoverSizeRatio: 5
         }
     });
 
@@ -56,7 +54,6 @@ function initialiseSigma() {
             //Label is the node label
             label = e.data.node.label;
 
-            //console.log(count+" "+label);
         }
         else {
             //if a new node is clicked restart count
@@ -71,23 +68,26 @@ function initialiseSigma() {
             label = 0;
             count = 0;
         }
-       
-        //var id = e.data.node.label;
+ 
         document.getElementById('node-info').innerHTML = "<a href='javascript:void(0)' class='closebtn' id='closebtn' onclick='closeNav()'>×</a><div class='search-container'><form action='#'><input type='text' placeholder='Search..' name='search' style='width:75%;'><button type='submit'><i class='fa fa-search'></i></button></form></div><a>" + e.data.node.label + "</a>";
-        
-        
-        //count++;
-        
-        // console.log(e.type, e.data.node.label, e.data.captor);
+
     });
 
-    //if background or edge is clicked then close the navbar
-    s.bind('click', function(e) {
+    //if background is clicked then close the navbar
+    s.bind('clickStage', function(e) {
         //reset values of count and label of last clicked node and then close the navbar
-        count = 0;
-        label = 0;
-        closeNav();
-    }); 
+            count = 0;
+            label = 0;
+            closeNav();
+    });
+
+    //if edge is clicked then close the navbar
+    s.bind('clickEdge', function(e) {
+        //reset values of count and label of last clicked node and then close the navbar
+            count = 0;
+            label = 0;
+            closeNav();
+    });
 
     //double clicking on nodes does not zoom in
     s.bind('overNode', function(e) {
@@ -99,20 +99,13 @@ function initialiseSigma() {
         s.settings('doubleClickEnabled', true);
     });
 
-    
-
     function openNav() {
-
         document.getElementById("node-info").style.width = "250px";
         document.getElementById("graph-container").style.marginLeft = "250px";
       }
       
       function closeNav() {
-        
-        document.getElementById("node-info").style.width = "0";
-        
-        document.getElementById("graph-container").style.marginLeft= "0";
-
-        
+        document.getElementById("node-info").style.width = "0";       
+        document.getElementById("graph-container").style.marginLeft= "0";     
       }
 }
