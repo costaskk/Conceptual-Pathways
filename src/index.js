@@ -44,8 +44,7 @@ function initialiseSigma() {
     var label = 0;
     // Bind the events:
     s.bind('clickNode', function(e) { 
-        //When clicking on node open navigation sidebar
-        openNav();
+        
 
         //Count number of subsequent clicks on same node
         if (e.data.node.label == label) {
@@ -67,6 +66,10 @@ function initialiseSigma() {
             closeNav();
             label = 0;
             count = 0;
+        }
+        else {
+            //When clicking on node for the first time open navigation sidebar
+            openNav();
         }
  
         document.getElementById('node-info').innerHTML = "<a href='javascript:void(0)' class='closebtn' id='closebtn' onclick='closeNav()'>×</a><div class='search-container'><form action='#'><input type='text' placeholder='Search..' name='search' style='width:75%;'><button type='submit'><i class='fa fa-search'></i></button></form></div><a>" + e.data.node.label + "</a>";
