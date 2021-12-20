@@ -9,7 +9,8 @@ export function setNodes(nodes, g) {
             x: node["x"],
             y: node["y"],
             size: 10,
-            color: node["colour"]
+            color: node["colour"],
+            description: node["description"]
         });
     }
     return nodes;

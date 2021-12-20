@@ -1,10 +1,17 @@
+window.$ = window.jQuery = require('jquery');
 import Sigma from "sigma";
 import * as nodeUtils from './initUtil.js';
+require('bootstrap/dist/css/bootstrap.css');
 import 'bootstrap';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 
 var i, s, g = {nodes: [], edges: []};
+// $('#exampleModal').modal({
+//     keyboard: false
+//   })
 
+  $('#exampleModal').on('show.bs.modal', function (e) {
+    console.log("mpike");
+  })
                     
 /*This is a javascript function, for fetching files, you can refer here: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch */
 fetch("./nodes.json")
@@ -38,77 +45,31 @@ function initialiseSigma() {
         }
     });
 
-    //counter of clicks on nodes
-    var count =0;
-    //Variable to check labels
-    var label = 0;
     // Bind the events:
-    s.bind('clickNode', function(e) { 
+    s.bind('clickNode', function(e) {
+        console.log(e);
+        // modal.show()
+        // $('#exampleModal').modal('show');
+        $('#exampleModal').find('input[name="bookId"]').val(e.data.node.description);
+        // $('#exampleModal').html( "PUTSARARASRARARA" ); // my_label inside modal
+        $('#exampleModal').modal('show')  
         
-
-        //Count number of subsequent clicks on same node
-        if (e.data.node.label == label) {
-            //if same node is clicked add to count
-            count++;
-            //Label is the node label
-            label = e.data.node.label;
-
-        }
-        else {
-            //if a new node is clicked restart count
-            count = 0;
-            //Label is the node label
-            label = e.data.node.label;
-        }
-
-        //if same node is clicked more than one subsequent times then close the nav and restart label and count
-        if (count>0) {
-            closeNav();
-            label = 0;
-            count = 0;
-        }
-        else {
-            //When clicking on node for the first time open navigation sidebar
-            openNav();
-        }
- 
-        document.getElementById('node-info').innerHTML = "<a href='javascript:void(0)' class='closebtn' id='closebtn' onclick='closeNav()'>×</a><div class='search-container'><form action='#'><input type='text' placeholder='Search..' name='search' style='width:75%;'><button type='submit'><i class='fa fa-search'></i></button></form></div><a>" + e.data.node.label + "</a>";
 
     });
 
     //if background is clicked then close the navbar
     s.bind('clickStage', function(e) {
-        //reset values of count and label of last clicked node and then close the navbar
-            count = 0;
-            label = 0;
-            closeNav();
     });
 
     //if edge is clicked then close the navbar
     s.bind('clickEdge', function(e) {
-        //reset values of count and label of last clicked node and then close the navbar
-            count = 0;
-            label = 0;
-            closeNav();
     });
 
     //double clicking on nodes does not zoom in
     s.bind('overNode', function(e) {
         s.settings('doubleClickEnabled', false);
       });
-      
-    //double clicking out of nodes does zoom in
     s.bind('outNode', function(e) {
         s.settings('doubleClickEnabled', true);
     });
-
-    function openNav() {
-        document.getElementById("node-info").style.width = "250px";
-        document.getElementById("graph-container").style.marginLeft = "250px";
-      }
-      
-      function closeNav() {
-        document.getElementById("node-info").style.width = "0";       
-        document.getElementById("graph-container").style.marginLeft= "0";     
-      }
 }
