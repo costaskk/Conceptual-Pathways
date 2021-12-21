@@ -1,0 +1,694 @@
+[
+    {
+        "id": 1,
+        "title": "Identify People for Screening",
+        "x": 0,
+        "y": -4000,
+        "connecting_nodes": [2],
+        "description": "<p><a class='btn btn-light' data-bs-toggle='collapse' href='#collapseExample1' role='button' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Types of Screening</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></a><div class='collapse' id='collapseExample1'><div class='card card-body'><h3>Systematic Strategy</h3>For the screening of DM and atherosclerosis risk factors, a systematic strategy should be used to identify people who are likely to be at high risk.<br/><br/><h3>Opportunistic Assessment</h3>Opportunistic assessment can also be used to identify ASCVD risk in the population but should not be the main strategy.</div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample2' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Who to Screen?</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample2'><div class='card card-body'>Screen the following people for prediabetes, T2DM and related ASCVD risk factors:<ul><li>Everyone over the age of 40 years.</li><li>Everyone ≥ 30 years of age with a BMI of ≥23.</li><li>All women with a history of either GDM or PCOS.</li><li>All people with a BMI ≥27 kg/m2.</li><li>Screen all adults with two or more of the following risk factors.</li></ul></div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample3' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Risk Factors</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample3'><div class='card card-body'><ul><li>BMI ≥23 to <27 kg/m2.</li><li>First-degree relative with DM.</li><li>First-degree relative with CVD at young age (<55 years for a male relative and <65 year for a female relative).</li><li>High-risk race/ethnicity.</li><li>History of CVD.</li><li>Hypertension (BP ≥140/90 mmHg or on therapy for hypertension).</li><li>Dyslipidaemia: HDL cholesterol level <0.90 mmol/L (35 mg/dL), a triglyceride level >2.82 mmol/L (250 mg/dL), LDL cholesterol level >3.11 mmol/L (120 mg/dL), total cholesterol level >6.18 mmol/L (240 mg/dL), and/or non-HDL cholesterol > 3.63 mmol/L (150 mg/dL); or the patient is on a lipid lowering medication.</li><li>Physical inactivity.</li><li>Tobacco use.</li><li>Other clinical conditions associated with insulin resistance.</li></ul></div></div>",
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 2,
+        "title":  "ASCVD and DM Risk Factors",
+        "x": 0,
+        "y": -3000,
+        "connecting_nodes": [3, 4, 5,6,7],
+        "description": "<h3>Non-Modifiable Risk Factors</h3><table class='table'><thead><tr><th scope='col'>Non-Modifiable Risk Factor</th><th scope='col'>ASCVD Risk Factor</th><th scope='col'>T2DM Risk Factor</th></tr></thead><tbody><tr><th scope='row'>Age</th><td>Age > 40 years</td><td>Age ≥40 years</td></tr><tr><th scope='row'>Gender</th><td>Men have a higher prevalence of coronary artery disease until the age of 75 years.</td><td>Women with a previous history of GDM or previous delivery of a baby weighing ≥4 kg (9 lb) are at higher risk of diabetes</td></tr><tr><th scope='row'>Family history</th><td>Family history of premature ASCVD.</td><td>Family history of T2DM.</td></tr><tr><th scope='row'>Ethnicity</th><td colspan='2'>Member of an at-risk racial or ethnic subgroup e.g. South Asian.</td></tr></tbody></table><br/><h3>Modifiable Risk Factors</h3><table class='table'><thead><tr><th scope='col'>Modifiable Risk Factor</th><th scope='col'>ASCVD Risk Factor</th><th scope='col'>T2DM Risk Factor</th></tr></thead><tbody><tr><th scope='row'>Metabolic syndrome</th><td>Age >Yes</td><td>Yes</td></tr><tr><th scope='row'>Impaired glucose metabolism</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Diabetes mellitus</th><td>Yes</td><td>Diagnosed</td></tr><tr><th scope='row'>Hypertension</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Dyslipidaemia</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Tobacco use</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Sedentary lifestyle</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Unhealthy diet</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Psychosocial stress</th><td>Yes</td><td>Yes</td></tr><tr><th scope='row'>Overweight</th><td>Yes</td><td>Yes</td></tr></tbody></table>",
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 3,
+        "title": "Depression & Anxiety Screening & Assessment",
+        "x": 2200,
+        "y": -3000,
+        "description": "<p><a class='btn btn-light' data-bs-toggle='collapse' href='#collapseExample1' role='button' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Who to Screen?</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></a><div class='collapse' id='collapseExample1'><div class='card card-body'>Screening for undiagnosed depression and anxiety should be performed in all adults, including pregnant and postpartum women, who are to be screened for ASCVD or DM.</div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample2' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>How to Screen?</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample2'><div class='card card-body'>Use the PHQ-2 and GAD-2 questions for initial screening for depression and anxiety. If a patient answers positively to the PHQ-2 and/or GAD-2 questions, they should be assessed using the PHQ-9 and/ or GAD-7 questions, respectively, and be seen by a physician.</div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample3' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Additional Assessments</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample3'><div class='card card-body'>All positive screening results should lead to additional assessment that considers:<ul><li>The severity of depression and anxiety.</li><li>First-degree relative with DM.</li><li>Comorbid psychological problems (e.g., anxiety, panic attacks, or substance abuse).</li><li>Other medical conditions.</li></ul></div></div>",
+        "connecting_nodes": [],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 4,
+        "title": "Measure BMI",
+        "x": -1250,
+        "y": -2000,
+        "connecting_nodes": [8],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 5,
+        "title": "Measure Waist Circumference",
+        "x": -550,
+        "y": -2000,
+        "connecting_nodes": [8],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 6,
+        "title": "Measure Neck Circumference",
+        "x": 550,
+        "y": -2000,
+        "connecting_nodes": [8],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 7,
+        "title": "Measure Blood Pressure",
+        "x": 1150,
+        "y": -2000,
+        "connecting_nodes": [8],
+        "colour": "#7a00cc"
+    },   
+    {
+        "id": 8,
+        "title": "Blood Tests",
+        "x": 0,
+        "y": -1400,
+        "connecting_nodes": [],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 9,
+        "title": "Glucose Monitoring and Treatment Targets",
+        "x": 600,
+        "y": 200,
+        "connecting_nodes": [],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 10,
+        "title": "MDT Approach",
+        "x": -150,
+        "y": 200,
+        "connecting_nodes": [8],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 11,
+        "title": "Pharmacotherapy in Obese Patients",
+        "x": 1400,
+        "y": 200,
+        "connecting_nodes": [9],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 12,
+        "title": "Management",
+        "x": -250,
+        "y": 200,
+        "connecting_nodes": [10],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 13,
+        "title": "Referrals for Initial Care Management",
+        "x": -250,
+        "y": 300,
+        "connecting_nodes": [12],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 14,
+        "title": "Refel to appropriate specialist",
+        "x": -150,
+        "y": 350,
+        "connecting_nodes": [13],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 15,
+        "title": "Go to considerations in older adults ->",
+        "x": -450,
+        "y": 200,
+        "connecting_nodes": [12],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 16,
+        "title": "Management Considerations in Older Adults",
+        "x": -450,
+        "y": 300,
+        "connecting_nodes": [15],
+        "colour": "#663300"
+    },
+    {
+        "id": 17,
+        "title": "Treatment Goals",
+        "x": -450,
+        "y": 400,
+        "connecting_nodes": [16],
+        "colour": "#663300"
+    },
+    {
+        "id": 18,
+        "title": "Blood Glucose Targets",
+        "x": -450,
+        "y": 500,
+        "connecting_nodes": [17],
+        "colour": "#663300"
+    },
+    {
+        "id": 19,
+        "title": "HbA1c Targets",
+        "x": -450,
+        "y": 600,
+        "connecting_nodes": [18],
+        "colour": "#663300"
+    },  
+    {
+        "id": 20,
+        "title": "Non-Pharmacological therapy",
+        "x": -450,
+        "y": 800,
+        "connecting_nodes": [19],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 21,
+        "title": "Transitions of Care",
+        "x": -450,
+        "y": 1000,
+        "connecting_nodes": [20],
+        "colour": "#663300"
+    },
+    {
+        "id": 22,
+        "title": "Comorbidity Management",
+        "x": -450,
+        "y": 1200,
+        "connecting_nodes": [21],
+        "colour": "#663300"
+    },
+    {
+        "id": 23,
+        "title": "Nutrition",
+        "x": -450,
+        "y": 1400,
+        "connecting_nodes": [22],
+        "colour": "#663300"
+    },
+    {
+        "id": 24,
+        "title": "Neurocognitive Function",
+        "x": -450,
+        "y": 1600,
+        "connecting_nodes": [23],
+        "colour": "#663300"
+    },
+    {
+        "id": 25,
+        "title": "Diabetes Self-Management Education and Support",
+        "x": -450,
+        "y": 1800,
+        "connecting_nodes": [24],
+        "colour": "#663300"
+    },
+    {
+        "id": 26,
+        "title": "End of life care",
+        "x": 250,
+        "y": 800,
+        "connecting_nodes": [20],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 27,
+        "title": "End of life goals",
+        "x": 30,
+        "y": 1100,
+        "connecting_nodes": [26],
+        "colour": "#663300"
+    },
+    {
+        "id": 28,
+        "title": "Key Considerations",
+        "x": 450,
+        "y": 1100,
+        "connecting_nodes": [26],
+        "colour": "#663300"
+    },
+    {
+        "id": 29,
+        "title": "Pharmacological Therapy",
+        "x": 250,
+        "y": 1600,
+        "connecting_nodes": [28,27],
+        "colour": "#663300"
+    },
+    {
+        "id": 30,
+        "title": "Advanced Disease Management",
+        "x": 250,
+        "y": 1800,
+        "connecting_nodes": [29],
+        "colour": "#663300"
+    },
+    {
+        "id": 31,
+        "title": "Pharmacological therapy",
+        "x": -1100,
+        "y": 800,
+        "connecting_nodes": [20],
+        "colour": "#663300"
+    },
+    {
+        "id": 32,
+        "title": "Metformin",
+        "x": -1100,
+        "y": 1000,
+        "connecting_nodes": [31],
+        "colour": "#663300"
+    },
+    {
+        "id": 33,
+        "title": "Thiazolidinediones",
+        "x": -1100,
+        "y": 1200,
+        "connecting_nodes": [32],
+        "colour": "#663300"
+    },
+    {
+        "id": 34,
+        "title": "Insulin Secretagogues",
+        "x": -1100,
+        "y": 1400,
+        "connecting_nodes": [33],
+        "colour": "#663300"
+    },
+    {
+        "id": 35,
+        "title": "Incretin-based Therapies",
+        "x": -1100,
+        "y": 1600,
+        "connecting_nodes": [34],
+        "colour": "#663300"
+    },
+    {
+        "id": 36,
+        "title": "Sodium Glucose Cotransporter-2 (SGLT-2) inhibitors",
+        "x": -1100,
+        "y": 1800,
+        "connecting_nodes": [35],
+        "colour": "#663300"
+    },
+    {
+        "id": 37,
+        "title": "Insulin",
+        "x": -1100,
+        "y": 2000,
+        "connecting_nodes": [36],
+        "colour": "#663300"
+    },
+    {
+        "id": 38,
+        "title": "Glucose Monitoring and Treatment Targets",
+        "x": -1250,
+        "y": 200,
+        "connecting_nodes": [15],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 39,
+        "title": "Assessment of Self-Monitoring of Blood Glucose",
+        "x": -1250,
+        "y": 500,
+        "connecting_nodes": [38],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 40,
+        "title": "Non Pharmacological management",
+        "x": -2050,
+        "y": -200,
+        "connecting_nodes": [38],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 41,
+        "title": "Go to Pharmacological management ->",
+        "x": -2050,
+        "y": 1000,
+        "connecting_nodes": [40],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 42,
+        "title": "Managing Diabetes during Ramadan",
+        "x": -2050,
+        "y": 1300,
+        "connecting_nodes": [41],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 43,
+        "title": "Risk Stratification",
+        "x": -2050,
+        "y": 1600,
+        "connecting_nodes": [42],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 44,
+        "title": "Structured pre-Ramadan Education",
+        "x": -2550,
+        "y": 2200,
+        "connecting_nodes": [43],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 45,
+        "title": "Go to Pharmacological Management",
+        "x": -2750,
+        "y": 2500,
+        "connecting_nodes": [44],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 46,
+        "title": "Hypoglycemia",
+        "x": -2050,
+        "y": -1100,
+        "connecting_nodes": [40],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 47,
+        "title": "At each encounter",
+        "x": -2650,
+        "y": -1800,
+        "connecting_nodes": [46],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 48,
+        "title": "Treatment",
+        "x": -3250,
+        "y": -2000,
+        "connecting_nodes": [47],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 49,
+        "title": "Hypoglycemia Unawareness",
+        "x": -3200,
+        "y": -1100,
+        "connecting_nodes": [46],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 50,
+        "title": "Restore Recognition of Hypoglycemia",
+        "x": -3700,
+        "y": -1600,
+        "connecting_nodes": [49],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 51,
+        "title": "HAAF",
+        "x": -4000,
+        "y": -1900,
+        "connecting_nodes": [50],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 52,
+        "title": "Structured Diabetes Education and Support",
+        "x": -3800,
+        "y": -600,
+        "connecting_nodes": [40],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 53,
+        "title": "Contraindications to Physical Activity",
+        "x": -5000,
+        "y": -600,
+        "connecting_nodes": [52],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 54,
+        "title": "Hypoglycemia Risk",
+        "x": -6000,
+        "y": -600,
+        "connecting_nodes": [53],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 55,
+        "title": "Smoking Cessation",
+        "x": -4200,
+        "y": 1,
+        "connecting_nodes": [52],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 56,
+        "title": "Additional non pharmacological strategiea",
+        "x": -4200,
+        "y": 900,
+        "connecting_nodes": [40],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 57,
+        "title": "Medical Nutrition Therapy",
+        "x": -5500,
+        "y": 1500,
+        "connecting_nodes": [56],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 58,
+        "title": "Weight Management",
+        "x": -6500,
+        "y": 1500,
+        "connecting_nodes": [57],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 59,
+        "title": "Psychosocial Care",
+        "x": -6900,
+        "y": 1500,
+        "connecting_nodes": [58],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 60,
+        "title": "Immunization",
+        "x": -7250,
+        "y": 1500,
+        "connecting_nodes": [59],
+        "colour": "#ff9999"
+    },
+    {
+        "id": 61,
+        "title": "Insulin Therapy",
+        "x": 2450,
+        "y": 2100,
+        "connecting_nodes": [11],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 62,
+        "title": "Step 1: Basal Insulin",
+        "x": 2450,
+        "y": 2500,
+        "connecting_nodes": [61],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 63,
+        "title": "Step 2: Additional Insulin Injections / Glucagon-like Peptide 1 (GLP-1) Receptor Agonist Trial",
+        "x": 2450,
+        "y": 2900,
+        "connecting_nodes": [62],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 64,
+        "title": "Option 1 Rapid-insulin Injection Before Largest Meal",
+        "x": 2050,
+        "y": 3400,
+        "connecting_nodes": [63],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 65,
+        "title": "Option 2 Premixed Insulin Twice Daily",
+        "x": 2900,
+        "y": 3400,
+        "connecting_nodes": [63],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 66,
+        "title": "Step 3: Changing to a Basal-bolus Regimen",
+        "x": 2450,
+        "y": 3700,
+        "connecting_nodes": [64,65],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 67,
+        "title": "Glycemic Control not Achieve",
+        "x": 2450,
+        "y": 4200,
+        "connecting_nodes": [66],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 68,
+        "title": "Combination Injectable Therapy",
+        "x": 1000,
+        "y": 2100,
+        "connecting_nodes": [61],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 69,
+        "title": "Metformin Monotherapy",
+        "x": 600,
+        "y": 2600,
+        "connecting_nodes": [68],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 70,
+        "title": "Dual Therapy",
+        "x": 600,
+        "y": 3500,
+        "connecting_nodes": [69],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 71,
+        "title": "Triple Therapy",
+        "x": -600,
+        "y": 4000,
+        "connecting_nodes": [70],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 72,
+        "title": "Additional Considerations",
+        "x": 4200,
+        "y": 2100,
+        "connecting_nodes": [61],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 73,
+        "title": "SMBG",
+        "x": 4200,
+        "y": 3100,
+        "connecting_nodes": [72],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 74,
+        "title": "Weight Loss Medication",
+        "x": 4200,
+        "y": 3500,
+        "connecting_nodes": [73],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 75,
+        "title": "Pharmacological Management During Ramadan",
+        "x": 4200,
+        "y": 4000,
+        "connecting_nodes": [74],
+        "colour": "#ff0000"
+    },
+    {
+        "id": 76,
+        "title": "Go to ASCVD Risk Management",
+        "x": 5000,
+        "y": 4600,
+        "connecting_nodes": [75],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 77,
+        "title": "Lipid Management",
+        "x": 5000,
+        "y": 6500,
+        "connecting_nodes": [76],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 78,
+        "title": "Management of Hypertension",
+        "x": 2700,
+        "y": 6500,
+        "connecting_nodes": [77],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 79,
+        "title": "First-line Medication",
+        "x": 2700,
+        "y": 7500,
+        "connecting_nodes": [78],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 80,
+        "title": "Follow-Up",
+        "x": 2700,
+        "y": 8150,
+        "connecting_nodes": [79],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 81,
+        "title": "Adequate control with first line medication",
+        "x": 1800,
+        "y": 9150,
+        "connecting_nodes": [80],
+        "colour": "#7a00cc"
+    },
+    {
+        "id": 82,
+        "title": "Inadequate Control with First Line Medication",
+        "x": 3600,
+        "y": 9150,
+        "connecting_nodes": [80],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 83,
+        "title": "Antiplatelet Therapy",
+        "x": 6900,
+        "y": 6500,
+        "connecting_nodes": [77],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 84,
+        "title": "Moderate Intensity Statin",
+        "x": 4000,
+        "y": 7500,
+        "connecting_nodes": [77],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 85,
+        "title": "High Intensity Statin",
+        "x": 6000,
+        "y": 7500,
+        "connecting_nodes": [77],
+        "colour": "#ffcc00"
+    },
+    {
+        "id": 86,
+        "title": "Ezetimibe",
+        "x": 5000,
+        "y": 9500,
+        "connecting_nodes": [84,85],
+        "colour": "#ffcc00"
+    }
+    
+]
