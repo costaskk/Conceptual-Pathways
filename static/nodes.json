@@ -21,6 +21,7 @@
         "id": 3,
         "title": "Depression & Anxiety Screening & Assessment",
         "x": 2200,
+        "edges": [{"id":"e0","size":100}],
         "y": -3000,
         "description": "<p><a class='btn btn-light' data-bs-toggle='collapse' href='#collapseExample1' role='button' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Who to Screen?</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></a><div class='collapse' id='collapseExample1'><div class='card card-body'>Screening for undiagnosed depression and anxiety should be performed in all adults, including pregnant and postpartum women, who are to be screened for ASCVD or DM.</div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample2' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>How to Screen?</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample2'><div class='card card-body'>Use the PHQ-2 and GAD-2 questions for initial screening for depression and anxiety. If a patient answers positively to the PHQ-2 and/or GAD-2 questions, they should be assessed using the PHQ-9 and/ or GAD-7 questions, respectively, and be seen by a physician.</div></div><button class='btn btn-light' type='button' data-bs-toggle='collapse' data-bs-target='#collapseExample3' aria-expanded='false' aria-controls='collapseExample'><span style='color:red;'>Additional Assessments</span>&nbsp;&nbsp;&nbsp;&nbsp;<i id='arrow' class='fa fa-angle-down'></i></button><br/><br/><div class='collapse' id='collapseExample3'><div class='card card-body'>All positive screening results should lead to additional assessment that considers:<ul><li>The severity of depression and anxiety.</li><li>First-degree relative with DM.</li><li>Comorbid psychological problems (e.g., anxiety, panic attacks, or substance abuse).</li><li>Other medical conditions.</li></ul></div></div>",
         "connecting_nodes": [],
@@ -29,7 +30,7 @@
     {
         "id": 4,
         "title": "Measure BMI",
-        "x": -1250,
+        "x": -2350,
         "y": -2000,
         "connecting_nodes": [8],
         "colour": "#7a00cc"
@@ -37,7 +38,7 @@
     {
         "id": 5,
         "title": "Measure Waist Circumference",
-        "x": -550,
+        "x": -1050,
         "y": -2000,
         "connecting_nodes": [8],
         "colour": "#7a00cc"
@@ -45,7 +46,7 @@
     {
         "id": 6,
         "title": "Measure Neck Circumference",
-        "x": 550,
+        "x": 1550,
         "y": -2000,
         "connecting_nodes": [8],
         "colour": "#7a00cc"
@@ -53,7 +54,7 @@
     {
         "id": 7,
         "title": "Measure Blood Pressure",
-        "x": 1150,
+        "x": 4250,
         "y": -2000,
         "connecting_nodes": [8],
         "colour": "#7a00cc"

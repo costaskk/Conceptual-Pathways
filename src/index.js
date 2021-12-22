@@ -35,13 +35,13 @@ function initialiseSigma() {
         },
         settings: {
             //labels show up only when specified zoom in
-            labelThreshold: 25, 
-            minArrowSize: 10,
+            //labelThreshold: 25, 
+            minArrowSize: 1,
             minNodeSize: 1,
             maxNodeSize: 10,
-            minEdgeSize: 10,
-            maxEdgeSize: 15,
-            enableEdgeHovering: true,
+            minEdgeSize: 5,
+            maxEdgeSize: 5,
+            //enableEdgeHovering: true,
         }
     });
 
