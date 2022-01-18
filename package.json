@@ -27,6 +27,8 @@
     "graphology": "^0.22.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
     "sigma": "^1.2.1",
     "style-loader": "^3.3.1"
   },
