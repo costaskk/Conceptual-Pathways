@@ -10,7 +10,11 @@ module.exports = {
                 'css-loader',
                 'sass-loader'
             ],
-        },
+          },
+          {
+            test: /sigma.*/,
+            use: 'imports-loader?wrapper=window',
+          },
       ],
     },
     mode: 'development',

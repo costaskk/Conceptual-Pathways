@@ -10,7 +10,8 @@ export function setNodes(nodes, g) {
             y: node["y"],
             size: 10,
             color: node["colour"],
-            description: node["description"]
+            description: node["description"],
+            type: "diamond"
         });
     }
     return nodes;

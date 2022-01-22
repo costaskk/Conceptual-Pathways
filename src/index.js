@@ -1,17 +1,11 @@
 window.$ = window.jQuery = require('jquery');
 import Sigma from "sigma";
+import 'sigma/build/plugins/sigma.renderers.customShapes.min';
 import * as nodeUtils from './initUtil.js';
 require('bootstrap/dist/css/bootstrap.css');
 import 'bootstrap';
 
 var i, s, g = {nodes: [], edges: []};
-// $('#exampleModal').modal({
-//     keyboard: false
-//   })
-
-  $('#exampleModal').on('show.bs.modal', function (e) {
-    console.log("mpike");
-  })
                     
 /*This is a javascript function, for fetching files, you can refer here: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch */
 fetch("./nodes.json")
@@ -44,6 +38,10 @@ function initialiseSigma() {
             //enableEdgeHovering: true,
         }
     });
+
+    // Update node shapes
+    CustomShapes.init(s);
+    s.refresh();
 
     // Bind the events:
     s.bind('clickNode', function(e) {
