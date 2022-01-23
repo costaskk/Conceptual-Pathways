@@ -19,22 +19,29 @@ function fetchNodes(response) {
 }
 
 function initialiseSigma() {
+    
     var container = document.getElementById('graph-container');
+    
     s = new Sigma({
-        graph: g,
         
+        graph: g,
+                
         renderer: {
             container: container,
             type: 'canvas'
         },
         settings: {
             //labels show up only when specified zoom in
-            //labelThreshold: 25, 
+            labelThreshold: 5, 
             minArrowSize: 1,
-            minNodeSize: 1,
+            minNodeSize: 0,
             maxNodeSize: 10,
             minEdgeSize: 5,
             maxEdgeSize: 5,
+            //maxNo
+            //labelSize: 5,
+            minCameraRatio: 0.1,
+            maxCameraRatio: 0.1,
             //enableEdgeHovering: true,
         }
     });
