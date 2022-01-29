@@ -8,10 +8,10 @@ export function setNodes(nodes, g) {
             label: node["title"],
             x: node["x"],
             y: node["y"],
-            size: 10,
+            size: node["size"],
             color: node["colour"],
             description: node["description"],
-            type: "diamond"
+            type: node["type"]
         });
     }
     return nodes;

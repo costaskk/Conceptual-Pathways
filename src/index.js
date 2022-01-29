@@ -33,8 +33,8 @@ function initialiseSigma() {
             minArrowSize: 1,
             minNodeSize: 1,
             maxNodeSize: 10,
-            minEdgeSize: 5,
-            maxEdgeSize: 5,
+            minEdgeSize: 10,
+            maxEdgeSize: 10,
             //enableEdgeHovering: true,
         }
     });
